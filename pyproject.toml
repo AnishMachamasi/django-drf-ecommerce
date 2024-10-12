@@ -18,6 +18,9 @@ django-mptt = "^0.16.0"
 pytest = "^8.3.3"
 pytest-factoryboy = "^2.7.0"
 pytest-django = "^4.9.0"
+black = "^24.8.0"
+coverage = "^7.6.1"
+pytest-cov = "^5.0.0"
 
 
 [build-system]

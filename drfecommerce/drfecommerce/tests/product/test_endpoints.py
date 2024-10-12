@@ -18,7 +18,7 @@ class TestCategoryEndpoints:
         assert response.status_code == 200
         assert len(json.loads(response.content)) == 4
 
-
+ 
 class TestBrandEndpoints:
 
     endpoint = "/api/brand/"
